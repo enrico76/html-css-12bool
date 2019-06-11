@@ -13,8 +13,17 @@
   content: "";
   clear: both;
 }
+.halfcontainer::after {
+  display: table;
+  content: "";
+  clear: both;
+}
 [class*="col-"] {
 float: left;
+}
+.halfcontainer {
+  float: left;
+  width: 50%;
 }
 
 /* regole colonne */
