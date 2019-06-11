@@ -1,0 +1,6 @@
+/* regole di debug */
+[class*="col-"] {
+  height: 150px;
+  background: pink;
+  border: solid 1px black;
+}
