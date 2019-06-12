@@ -13,11 +13,6 @@
   content: "";
   clear: both;
 }
-.halfcontainer::after {
-  display: table;
-  content: "";
-  clear: both;
-}
 [class*="col-"] {
 float: left;
 }

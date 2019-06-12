@@ -1,6 +1,19 @@
 /* regole di debug */
+.container {
+  background-color: pink;
+}
 [class*="col-"] {
   height: 150px;
-  background: pink;
+  /* background: pink; */
   border: solid 1px black;
+}
+p {
+  text-align: center;
+  margin-top: 75px;
+}
+.colore {
+  background: red;
+  }
+.colore [class*="col-"] {
+  border-color: white;
 }
